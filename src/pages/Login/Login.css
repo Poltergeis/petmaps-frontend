@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 8.5vh;
 }
 
 .welcome-title{
@@ -19,4 +20,22 @@
     flex-direction: row;
     justify-content: center;
     align-items: last baseline;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 5vh;
+}
+
+.main-logo{
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 400px;
+    width: 32.625%;
+    height: 59vh;
 }

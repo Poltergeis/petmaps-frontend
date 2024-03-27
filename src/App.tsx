@@ -5,6 +5,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import ForgotPassword from './pages/forgotPassword/ForgotPassword';
+import MyPets from './pages/MyPets/MyPets';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path='/Login' Component={Login}/>
           <Route path='/Register' Component={Register}/>
           <Route path='/Forgotten_password' Component={ForgotPassword}/>
+          <Route path='/MyPets' Component={MyPets}/>
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,21 @@
+.trash-can-container{
+    width: 35%;
+    height: 12.5vh;
+    border-style: none;
+    outline: none;
+    border-radius: 5vh;
+    background: none;
+}
+
+.trash-can{
+    font-size: 500%;
+    cursor: pointer;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+.orange{
+    color: #e4a45a;
+}

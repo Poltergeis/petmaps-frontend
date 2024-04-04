@@ -1,0 +1,23 @@
+.pet-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 38vh;
+}
+
+.pet-container{
+    color: #FFFFFF;
+    background-image: linear-gradient(#4F4F4F,#191919);
+    height: 23.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    border-radius: 2vh;
+}
+
+.pet-age-label{
+    color: #818181;
+}

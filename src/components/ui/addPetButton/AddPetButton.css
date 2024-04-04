@@ -1,0 +1,20 @@
+.add-pet-button{
+    background: none;
+    color: #FFFFFF;
+    border-style: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 10vw;
+}
+
+.add-pet-icon{
+    font-size: 600%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+.add-pet-button:hover{
+    color: #909090;
+}

@@ -6,6 +6,7 @@ import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import ForgotPassword from './pages/forgotPassword/ForgotPassword';
 import MyPets from './pages/MyPets/MyPets';
+import AddPets from './pages/addPets/AddPets';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/Register' Component={Register}/>
           <Route path='/Forgotten_password' Component={ForgotPassword}/>
           <Route path='/MyPets' Component={MyPets}/>
+          <Route path='/addPets' Component={AddPets}/>
       </Routes>
     </BrowserRouter>
   );
